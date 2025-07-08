@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clicked {
+  background-color: lightgreen;
+}
+
+.filled-box {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+.empty-box {
+  width: 180px;
+  height: 180px;
+}
